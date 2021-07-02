@@ -79,6 +79,7 @@ h2{
     text-transform: capitalize;
     color: var(--black-color);
     line-height: 3rem;
+    animation: header 2s ease-in-out  ;
 }
 
 
@@ -214,7 +215,7 @@ p{
 
 .top-banner{
     width: 100%;
-    padding: 10.875rem 0 20.375rem;
+    padding: 7.875rem 0 20.375rem;
     
 }
 
@@ -256,8 +257,23 @@ p{
     padding: 40px;
     position: relative;
     padding-left: 1rem;
+    text-align: center;
+    padding-bottom: 3rem;
+    img{
+        width: 570px;
+        height: 400px;
+        display: flex;
+    }
 }
-
+.ideal{
+    margin-left: 3rem;
+    text-align: center;
+    padding-top: 10rem;
+    text-transform: uppercase;
+    p{
+        color: var(--text-gray);
+    }
+}
 /* Desktop Wide: */
 @media screen and (min-width: 1170px) {
     /* your code here */
@@ -293,6 +309,7 @@ p{
   /* Mobile: */
   @media screen and (max-width: 543px) {
     /* your code here */
+   
     .video-section{
         display: none;
     }

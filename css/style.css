@@ -83,6 +83,8 @@ h2 {
   text-transform: capitalize;
   color: var(--black-color);
   line-height: 3rem;
+  -webkit-animation: header 2s ease-in-out;
+          animation: header 2s ease-in-out;
 }
 
 h4 {
@@ -233,7 +235,7 @@ p {
 
 .top-banner {
   width: 100%;
-  padding: 10.875rem 0 20.375rem;
+  padding: 7.875rem 0 20.375rem;
 }
 
 .main-banner {
@@ -277,6 +279,27 @@ p {
   padding: 40px;
   position: relative;
   padding-left: 1rem;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+.info-banner img {
+  width: 570px;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.ideal {
+  margin-left: 3rem;
+  text-align: center;
+  padding-top: 10rem;
+  text-transform: uppercase;
+}
+
+.ideal p {
+  color: var(--text-gray);
 }
 
 /* Desktop Wide: */

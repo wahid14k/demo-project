@@ -41,9 +41,10 @@ ul, ol {
 }
 
 .darkMode {
-  --white-color:#000;
+  --white-color:#18191a;
   --primary-color:#fbbc21;
   --secondry-color:#f15a26;
+  --gray:#FFF;
 }
 
 html {
@@ -77,10 +78,10 @@ h1 {
 }
 
 h2 {
-  font-weight: 700;
+  font-weight: 400;
   font-size: 2.25rem;
   text-transform: capitalize;
-  color: var(--secondry-color);
+  color: var(--black-color);
   line-height: 3rem;
 }
 
@@ -232,12 +233,12 @@ p {
 
 .top-banner {
   width: 100%;
-  padding: 10.875rem 0 9.375rem;
+  padding: 10.875rem 0 20.375rem;
 }
 
 .main-banner {
   background-color: var(--gray);
-  padding: 30px;
+  padding: 40px;
   border-radius: 50px;
   position: relative;
   padding-left: 1rem;
@@ -251,8 +252,8 @@ p {
   position: absolute;
   right: 0px;
   bottom: 0px;
-  -webkit-transform: translate(10%, 50%);
-          transform: translate(10%, 50%);
+  -webkit-transform: translate(-15%, 50%);
+          transform: translate(-15%, 50%);
 }
 
 .video-cont {
@@ -261,6 +262,21 @@ p {
   border-radius: 12px;
   -webkit-box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.2);
           box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.bold-txt {
+  color: var(--primary-color);
+}
+
+.bold-text {
+  color: var(--secondry-color);
+}
+
+.info-banner {
+  background-color: var(--gray);
+  padding: 40px;
+  position: relative;
+  padding-left: 1rem;
 }
 
 /* Desktop Wide: */
